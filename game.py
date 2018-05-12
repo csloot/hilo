@@ -30,7 +30,7 @@ def game_loop():
     number = random.randint(0, 100)
 
     while True:
-        chosen_number = int(input('Guess a number between 0 & 100.'))
+        chosen_number = int(input('Guess a number between 0 & 100:'))
         if chosen_number == number:
             print("Got it: The number is {}".format(number))
             print_exit()
